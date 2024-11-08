@@ -10,3 +10,9 @@ all:
 	@ar rcs libnotice.a libnotice.o
 	
 	@rm -rf libnotice.o libkami.o
+
+clean: 
+	@echo "CLEAN    libkami.a"
+	@rm -rf libkami.a
+	@echo "CLEAN    libnotice.a"
+	@rm -rf libnotice.a
